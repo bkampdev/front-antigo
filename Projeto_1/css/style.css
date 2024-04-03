@@ -17,7 +17,6 @@ html,body{
 .center {
     width: 1280px;
     margin: 0 auto;
-
 }
 
 header{
@@ -50,7 +49,10 @@ header img{
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid grey;
+    border: 8px solid rgba(128, 128, 128, 0.5);
+    background-clip: padding-box;
+    /*"background-origin" tem o mesmo conceito so q para imagens / XD*/
+    border-radius: 10px;
 }
 
 .form h2{
@@ -61,7 +63,6 @@ header img{
 
 .input-container {
     margin-top: 20px;
-
 }
 
 .input-container span,.form p{
@@ -104,4 +105,48 @@ header img{
     background-color: #212343;
     border-bottom: 0px solid #2d305c;
 
+}
+
+.container-list{
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: #212343b7;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list li{
+    color: white;
+    margin-top: 18px;
+}
+
+.container-2{
+    padding: 40px 0;
+    background-color: #DDD;
+    text-align: center;
+}
+
+.container-2 h2{
+    font-weight: normal;
+
+}
+
+.container-2 p{
+    width: 698px;
+    display: inline-block;
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: 100%;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
 }
